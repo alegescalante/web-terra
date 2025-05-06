@@ -43,3 +43,5 @@ terraform.log
 SSh keys
 nginx-server.key.pub
 nginx-server.key
+nginx-server-qa.key
+nginx-server-qa.key.pub
