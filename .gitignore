@@ -39,3 +39,7 @@ terraform.rc
 # Archivos de registro de Terraform
 terraform.log
 .terraform.lock.hcl
+
+SSh keys
+nginx-server.key.pub
+nginx-server.key
