@@ -37,3 +37,18 @@ output "nginx_qa_dns" {
   description = "DNS público de la instancia EC2"
   value       = module.nginx_server_qa.server_public_dns
 }
+
+#para importar de aws correr el siguiente comando
+#terraform import aws_instance.server-web i-0f6c19601ef5ad9e9 (el numero corresponde al id de la instacncia en aws)
+#obs, crear antes de correr el comando la esctructura vacia:
+#resource "aws_instance" "server-web" {
+#   (resource arguments)
+#}
+
+#### Import
+#resource "aws_instance" "server-web" {
+  #(resource arguments)
+#}
+
+#para el estado de la instancia correr el siguiente comando
+#terraform state show aws_instance.server-web
