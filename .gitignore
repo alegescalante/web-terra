@@ -40,7 +40,7 @@ terraform.rc
 terraform.log
 .terraform.lock.hcl
 
-SSh keys
+#SSh keys
 nginx-server.key.pub
 nginx-server.key
 nginx-server-qa.key
